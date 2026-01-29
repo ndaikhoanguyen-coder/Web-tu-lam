@@ -8,6 +8,7 @@ body {
 }
 
 .products {
+  justify-content: baseline;
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: rgb(255, 255, 255);
@@ -16,7 +17,7 @@ body {
 }
 
 .item {
-  justify-items: center;
+  justify-items: auto;
   text-align: left;
   background-color: rgb(243, 243, 243);
   padding: 20px;
